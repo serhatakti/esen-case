@@ -1,0 +1,29 @@
+@keyframes highlight-red {
+    0% {
+        background-color: #c66868;
+    }
+    100% {
+        background-color: white;
+    }
+}
+
+@keyframes highlight-green {
+    0% {
+        background-color: #2c7a22;
+    }
+    100% {
+        background-color: white;
+    }
+}
+
+.update-highlight {
+    animation: highlight-red  2000ms ease-out;
+}
+
+.add-highlight {
+    animation: highlight-green 2000ms ease-out;
+}
+
+tr {
+    height: 60px !important;
+}

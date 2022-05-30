@@ -1,0 +1,71 @@
+[
+  {
+    "title": "ID",
+    "sortable": false,
+    "field": "dataId"
+  },
+  {
+    "title": "Start Time",
+    "sortable": true,
+    "field": "startTimeMs",
+    "orderType": "asc",
+    "formatDate": true
+  },
+  {
+    "title": "Stop Time",
+    "sortable": false,
+    "field": "stopTimeMs",
+    "formatDate": true
+  },
+  {
+    "title": "Start Frequency Hz",
+    "sortable": false,
+    "field": "startFrequencyHz"
+  },
+  {
+    "title": "Stop Frequency Hz",
+    "sortable": false,
+    "field": "stopFrequencyHz"
+  },
+  {
+    "title": "Sampling Frequency Hz",
+    "sortable": false,
+    "field": "samplingFrequencyHz"
+  },
+  {
+    "title": "Confidence",
+    "sortable": false,
+    "field": "confidence"
+  },
+  {
+    "title": "Enter Case",
+    "sortable": false,
+    "field": "enterCase"
+  },
+  {
+    "title": "Is Critical",
+    "sortable": false,
+    "field": "isCritical",
+    "filter": true,
+    "filterList": [
+      {
+        "label": "True",
+        "value": true
+      },
+      {
+        "label": "False",
+        "value": false
+      }
+    ]
+  },
+  {
+    "title": "Expected Time",
+    "sortable": false,
+    "field": "expectedTime"
+  },
+  {
+    "title": "Calculated Offset",
+    "sortable": false,
+    "field": "calculatedOffset"
+  }
+]
